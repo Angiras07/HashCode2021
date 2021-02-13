@@ -18,7 +18,7 @@ void greedy(){
 			return a.n > b.n;
 			});
 	ll i=0;
-	for(ll sz=2;sz<5;++sz){
+	for(ll sz=4;sz>1;--sz){
 		while(T[sz-2] && i+sz<=M){
 			vector<ll> tmp;
 			ll j=sz;
